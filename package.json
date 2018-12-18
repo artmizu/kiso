@@ -1,0 +1,21 @@
+{
+  "name": "kiso",
+  "version": "0.0.1",
+  "description": "Express JS project scaffold. Contain PostgreSQL for a DB migrations through Flyway and Swagger for API documentation.",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "node config/flyway.js",
+    "serve": "nodemon --inspect=0.0.0.0:3001 app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.7.1",
+    "swagger-editor": "^3.6.18",
+    "swagger-ui-express": "^4.0.2",
+    "yamljs": "^0.3.0"
+  }
+}
